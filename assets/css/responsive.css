@@ -1,16 +1,21 @@
 @media (max-width: 992px) {
 	.navbar-collapse {
-		background: white;
+		background: var(--background-dark-secondary);
 		padding-left: 1rem;
 	}
+
+	.hero-buttons {
+		
+	}
+
 }
 
 @media (max-width: 768px) {
 	/* Call to action buttons */
 
-	.btn {
+	/* .btn {
 		margin-top: 1rem;
-	}
+	} */
 }
 
 @media (max-width: 576px) {
@@ -24,8 +29,16 @@
 		text-align: center;
 	}
 
-	.btn {
-		margin-top: 1rem;
+	#about h2 {
+		text-align: center;
+	}
+
+	#about p {
+		text-align: center;
+	}
+
+	#contact h2 {
+		text-align: center;
 	}
 
 	#button-head {
