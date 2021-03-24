@@ -12,9 +12,9 @@
 
 <body>
 	<header>
-		<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+		<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
 			<div class="container">
-				<a class="navbar-brand font-weight-bold" href="#">Mentum</a>
+				<a class="logo-brand navbar-brand font-weight-bold" href="#hero">Mentum</a>
 				<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
 					data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
 					aria-label="Toggle navigation">
@@ -24,7 +24,7 @@
 				<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
 					<ul class="navbar-nav">
 						<li class="nav-item">
-							<a class="nav-link" href="#">Home</a>
+							<a class="nav-link" href="#hero">Home</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#about">About</a>
@@ -49,10 +49,11 @@
 	</header>
 
 	<!-- Hero Section -->
+
 	<section id="hero">
 		<div class="container">
 			<div class="row main-hero-content">
-				<div class="col-md-6 align-self-center">
+				<div class="col-md-5 align-self-center">
 					<h1 class="main-hero-text">
 						The easiest way to integrate investments
 					</h1>
@@ -73,9 +74,9 @@
 					</div>
 
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-7">
 					<div class="image-box">
-						<img src="./assets/img/invest-hero.png" class="img-fluid" alt="image" />
+						<img src="./assets/img/invest-hero-dark.png" class="img-fluid" alt="image" />
 					</div>
 				</div>
 			</div>
@@ -106,7 +107,7 @@
 				<div class="col-md-4">
 					<!-- Add Icon Image Here -->
 					<h3>Secure and Accredited</h3>
-					<p>Your customer's investments are safely managed by an accredited brokerage firm.</p>
+					<p>Your customer's investments are safely managed by an accredited clearing and custodian firm.</p>
 				</div>
 			</div>
 		</div>
@@ -123,14 +124,12 @@
 			<div class="row mt-5 mx-auto">
 				<div class="col-md-3">
 					<div class="feature-block">
-						<img src="./assets/img/featureicon1.png" alt="" />
 						<h3 class="text-center">Embed Investments Inside your App</h3>
 						<p>
 							Build an investment management arm inside your app.
 						</p>
 					</div>
 					<div class="feature-block mt-5">
-						<img src="./assets/img/featureicon2.png" alt="" />
 						<h3 class="text-center">Open an Account in Minutes</h3>
 						<p>
 							Your users can open an account by answering a couple of questions, our API does the rest of
@@ -145,7 +144,6 @@
 				</div>
 				<div class="col-md-3">
 					<div class="feature-block">
-						<img src="./assets/img/featureicon3.png" alt="" />
 						<h3 class="text-center">Choose your Investments</h3>
 						<p>
 							Let your users access the US capital markets and invest in portfolios based on their risk
@@ -153,7 +151,6 @@
 						</p>
 					</div>
 					<div class="feature-block mt-5">
-						<img src="assets/img/featureicon4.png" alt="" />
 						<h3 class="text-center">Visualize Performance</h3>
 						<p>
 							Access investment performance and additional information about your customers' investments.
@@ -167,54 +164,64 @@
 	<!-- use-case Section -->
 
 	<section id="use-case">
-		<div class="container mt-5">
-			<div class="row main-use-case-content mr-5 align-items-center">
-				<div class="col-md-6">
-					<h2>
-						How does it work?
-					</h2>
-					<p>
-						Think of "XBank” 🏦 a fast-growing mobile app that offers checking accounts and a safe place to
-						store money to thousands of users. <br><br> Andy 👩🏽‍ is a user of XBank.
-					</p>
+		<div class="use-case container">
+			<div class="row main-use-case-content mr-5 justify-content-center">
 
-				</div>
-				<div class="col-md-6">
-					<div class="row justify-content-center">
+				<h2 class="section-title-heading">Here's an example</h2>
+				<p class="text-center">
+					Think of "XBank” 🏦 a fast-growing mobile app that offers checking accounts and a safe place to
+					store money to thousands of users. Andy 👩🏽‍ is a user of XBank.
+				</p>
 
-						<div class="card shadow p-3 mb-5 bg-white rounded ml-5">
+			</div>
+			<div class="row justify-content-center">
 
-							<div class="card-body text-center">
+				<div class="card-deck">
+					<div class="card shadow">
+						<h2 class="card-title">1</h2>
 
-								<p class="card-text">
-								<ul class="list-group borderless">
-									<li class="list-group-item" style="border: none;">🏦 XBank requests for the
-										integration. We give them
-										access to our API and documentation
-									</li>
-									<li class="list-group-item" style="border: none;">🔗 We help XBank
-										integrate the API, and embed
-										it in-app to keep its neat user experiences
-									</li>
-									<li class="list-group-item" style="border: none;">👩🏽 Andy notices the new button
-										and requests to open an
-										investment account inside XBank's app</li>
-									<li class="list-group-item" style="border: none;">📝 Andy answers a couple of
-										questions and her application gets reviewed in seconds
-									</li>
-									<li class="list-group-item" style="border: none;">📈 Andy chooses a portfolio and
-										is able to see her
-										performance</li>
-								</ul>
-								<h3>Oh yeah, and all of this happens within XBank's app! 📱 </h3>
-								</p>
-
-							</div>
+						<div class="card-body">
+							<p class="card-text">🏦 XBank requests for the
+								integration. We give them
+								access to our API and documentation</p>
 						</div>
+					</div>
+					<div class="card shadow">
+						<h2 class="card-title">2</h2>
+						<div class="card-body">
+							<p class="card-text">🔗 We help XBank
+								integrate the API, and embed
+								it in-app to keep its neat user experiences</p>
 
+						</div>
+					</div>
+					<div class="card shadow">
+						<h2 class="card-title">3</h2>
+						<div class="card-body">
+							<p class="card-text">👩🏽 Andy notices the new button
+								and requests to open an
+								investment account inside XBank's app</p>
+						</div>
+					</div>
+					<div class="card shadow">
+						<h2 class="card-title">4</h2>
+						<div class="card-body">
+							<p class="card-text">📝 Andy answers a couple of
+								questions and her application gets reviewed in seconds</p>
+						</div>
+					</div>
+					<div class="card shadow">
+						<h2 class="card-title">5</h2>
+						<div class="card-body">
+							<p class="card-text">📈 Andy chooses a portfolio and
+								is able to see her
+								performance</p>
+						</div>
 					</div>
 				</div>
+
 			</div>
+
 		</div>
 	</section>
 
@@ -228,10 +235,10 @@
 
 <section id="contact">
 	<div class="container">
-		<div class="jumbotron mt-5 mx-auto">
+		<div class="jumbotron mx-auto shadow">
 			<div class="row mx-auto">
 				<div class="col-md-6">
-					<h1 class="display-5">Ready to get started?</h1>
+					<h2 class="display-5">Ready to get started?</h2>
 				</div>
 				<div class="col-md-6 align-self-center">
 
