@@ -152,7 +152,10 @@ h2.section-title-heading {
 .image-box img {
 	position: relative;
 	top: 2rem;
-
+	transition: transform 0.3s; /* Animation */
+}
+.image-box img:hover {
+	transform: scale(1.05); /* 110% zoom */
 }
 
 #hero::after {
@@ -204,10 +207,16 @@ h2.section-title-heading {
 	height: 230px;
 }
 
-#features img {
+.image-features img {
 	display: block;
 	margin: 0 auto;
+	transition: transform 0.3s; /* Animation */
 }
+
+.image-features img:hover {
+	transform: scale(1.05); /* 110% zoom */
+}
+
 
 #features .feature-block {
 	text-align: center;
