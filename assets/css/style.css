@@ -57,6 +57,23 @@ h1 {
 	height: 145%;
 }
 
+.btn-coming-soon {
+	border: none;
+	color: var(--body-color);
+	background-color: var(--background-dark-button);
+	font-weight: 600;
+	font-size: 1rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	height: 145%;
+	
+}
+
+.btn-coming-soon:hover {
+	color: var(--body-color);
+}
+
+
 .btn-cta:hover {
 	background-color: var(--main-accent-color);
 	color: white;
@@ -102,12 +119,6 @@ h2.section-title-heading {
 /* .navbar-collapse .navbar-nav {
 	background-color: var(--background-dark-primary);
 } */
-
-@media (max-width: 992px)
-{.navbar-collapse {
-    /* background: var(--background-dark-secondary) !important; */
-
-}}
 
 .navbar-dark .navbar-nav .nav-link {
 	color: var(--section-title-color-dark);
@@ -330,4 +341,36 @@ li.borderless {
 	color: var(--body-color);
 	font-size: 1rem;
 	line-height: 1.7rem;
+}
+
+/* Sign-up section (contact page) */
+
+#sign-up {
+	padding-top: 8rem;
+}
+
+#sign-up .btn-input {
+	color: var(--body-color-dark);
+	background-color: var(--background-dark-button);
+	border: none;
+	height: 65%;
+}
+
+#sign-up .sign-in-form {
+	padding-left: 5rem;
+	padding-right: 5rem;
+}
+
+#sign-up p{
+	color: var(--body-color);
+}
+
+#sign-up label{
+	color: var(--body-color);
+	font-size: 1.2rem;
+}
+
+#sign-up .form-row {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 }
