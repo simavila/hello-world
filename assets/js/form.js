@@ -1,4 +1,3 @@
-
 // Checking if all form has been filled to enable button
 window.addEventListener('load', function () {
     let currForm1 = document.getElementById('test-form');
@@ -16,6 +15,10 @@ window.addEventListener('load', function () {
             var is_valid = $('.form-control').length === $('.form-control.is-valid').length;
             $("#submit-form").attr("disabled", !is_valid);
 
+            // Redirecting to success page
+            $("#submit-form").click(function () {
+                document.location.href = "success.html"
+            });
 
         });
     });
@@ -28,6 +31,7 @@ window.addEventListener('load', function () {
         currForm1.classList.add('was-validated');
     }, false);
 });
+
 
 // Handling data and storing in Google Sheets
 var $form = $('form#test-form'),
