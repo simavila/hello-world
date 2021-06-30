@@ -418,6 +418,13 @@ h3.red-title {
 	transform: matrix(1, 0, 0, -1, 0, 0);
 }
 
+#api-snippet .image-box-code img {
+	display: block;
+	position: relative;
+	height: auto;
+	width: 80rem;
+}
+
 /*  Use Case */
 
 #use-case .ellipse {

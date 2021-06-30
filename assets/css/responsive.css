@@ -193,7 +193,11 @@
 		text-align: left;
 	}
 
-	.image-box img {
+	.image-box-code {
+		justify-content: center;
+	}
+
+	.image-box-code img {
 		position: relative;
 		height: auto;
 		width: 25rem;
