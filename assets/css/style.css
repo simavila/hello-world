@@ -199,11 +199,6 @@ h2.section-title-heading {
 	height: auto;
 	width: auto;
 	top: 2rem;
-	transition: transform 0.3s; /* Animation */
-}
-
-.image-box img:hover {
-	transform: scale(1.05); /* 110% zoom */
 }
 
 #hero::after {
@@ -398,11 +393,6 @@ h3.red-title {
 	margin: 0 auto;
 	width: 110%;
 	height: auto;
-	transition: transform 0.3s; /* Animation */
-}
-
-.image-features img:hover {
-	transform: scale(1.05); /* 110% zoom */
 }
 
 #features h3 {
