@@ -173,6 +173,10 @@
 		padding-right: 2rem !important;
 	} */
 
+	#features .green-card {
+		overflow: hidden;
+	}
+
 	#features .green-card-image {
 		bottom: 5%;
 	}
@@ -215,8 +219,13 @@
 		text-align: left;
 	}
 
+	#use-case .green-card .card-title {
+		margin-top: 2rem;
+	}
+
 	#use-case .green-card {
 		height: 30rem;
+		overflow: hidden;
 	}
 
 	#use-case .green-card img {
