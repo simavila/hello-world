@@ -14,6 +14,10 @@
 	/* .btn {
 		margin-top: 1rem;
 	} */
+
+	.cta-contact {
+		display: none;
+	}
 }
 
 @media (max-width: 576px) {
@@ -187,6 +191,12 @@
 
 	#api-snippet p {
 		text-align: left;
+	}
+
+	.image-box img {
+		position: relative;
+		height: auto;
+		width: 25rem;
 	}
 
 	#use-case h2 {
