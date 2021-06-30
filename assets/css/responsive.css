@@ -5,9 +5,7 @@
 	}
 
 	.hero-buttons {
-		
 	}
-
 }
 
 @media (max-width: 768px) {
@@ -21,24 +19,210 @@
 @media (max-width: 576px) {
 	/* Call to action buttons */
 
+	p {
+		font-size: 1rem !important;
+	}
+
+	html {
+		margin-left: 1.5rem !important;
+		margin-right: 1.5rem !important;
+	}
+
+	h2 {
+		font-size: 1.8rem !important;
+	}
+
+	.cta-contact {
+		display: none;
+	}
+
+	#hero .ellipse {
+		left: -70%;
+		right: 0%;
+		top: 60%;
+		width: auto;
+		height: 15rem;
+		opacity: 0.7;
+	}
+
+	#features .ellipse {
+		left: 0%;
+		right: 0%;
+		top: 290%;
+		width: auto;
+		height: 15rem;
+		opacity: 0.7;
+	}
+
+	#api-snippet .ellipse {
+		left: 0%;
+		right: 0%;
+		top: 540%;
+		width: auto;
+		height: 15rem;
+		opacity: 0.5;
+	}
+
+	#use-case .ellipse {
+		left: 0%;
+		right: 0%;
+		top: 600%;
+		width: auto;
+		height: 25rem;
+		opacity: 0.3;
+	}
+
+	#hero {
+		margin-bottom: 1rem;
+		padding-bottom: 1rem;
+	}
+
 	#hero h1 {
-		text-align: center;
+		font-weight: 600;
+		text-align: left;
+		font-size: 1.8rem;
+		line-height: 2.5rem;
 	}
 
 	#hero p {
-		text-align: center;
+		text-align: left;
+		font-size: 1rem;
+		margin-top: 1rem;
+		margin-bottom: 2rem;
+	}
+
+	.cta {
+		margin-bottom: 4rem;
+	}
+
+	#about {
+		margin-bottom: 1rem;
+		padding-bottom: 1rem;
 	}
 
 	#about h2 {
+		font-weight: 600;
+		text-align: left;
+		line-height: 2.5rem;
+		margin-top: 1rem;
+		text-align: center;
+	}
+
+	#about h3 {
 		text-align: center;
 	}
 
 	#about p {
+		text-align: center !important;
+	}
+
+	/* #about .card {
+		margin-right: 1.5rem !important;
+		margin-left: 1.5rem !important;
+	} */
+
+	#features {
+		padding-top: 1rem;
+		padding-bottom: 5rem;
+	}
+
+	#features h2 {
+		text-align: left;
+	}
+
+	#features h3 {
+		font-weight: 600;
+		text-align: left;
+		font-size: 2.2rem;
+		line-height: 2.5rem;
+	}
+
+	#features p {
+		text-align: left;
+	}
+
+	.icons {
+		text-align: center !important;
+	}
+
+	#features .icons {
+		text-align: left !important;
+	}
+
+	#features .yellow-phone {
+		height: 20rem;
+	}
+
+	#features .yellow-phone img {
+		top: 40%;
+	}
+
+	/* #features .color-cols {
+		padding-right: 1.5rem !important;
+		padding-left: 1.5rem !important;
+	} */
+
+	/* #features .left-col {
+		padding-top: 0rem;
+		padding-bottom: 0rem;
+		padding-left: 2rem !important;
+		padding-right: 2rem !important;
+	} */
+
+	#features .green-card-image {
+		bottom: 5%;
+	}
+
+	#features .green-card-image img {
+		width: 20rem;
+		height: auto;
+	}
+
+	#api-snippet h2 {
+		font-weight: 600;
+		text-align: left !important;
+		line-height: 2.5rem;
 		text-align: center;
+	}
+
+	#api-snippet p {
+		text-align: left;
+	}
+
+	#use-case h2 {
+		text-align: left;
+	}
+
+	#use-case .icons {
+		text-align: left !important;
+	}
+
+	#use-case p {
+		text-align: left;
+	}
+
+	#use-case .green-card {
+		height: 30rem;
+	}
+
+	#use-case .green-card img {
+		height: 15rem;
+	}
+
+	#use-case .green-card .card-body {
+		margin-top: -7rem;
 	}
 
 	#contact h2 {
 		text-align: center;
+	}
+
+	#contact p {
+		text-align: center;
+	}
+
+	#contact .cta {
+		text-align: center !important;
 	}
 
 	#button-head {
