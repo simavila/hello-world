@@ -1,9 +1,4 @@
 @media (max-width: 992px) {
-	.navbar-collapse {
-		background: var(--background-dark-secondary);
-		padding-left: 1rem;
-	}
-
 	.hero-buttons {
 	}
 }
@@ -17,6 +12,10 @@
 
 	.cta-contact {
 		display: none;
+	}
+
+	.page-footer {
+		text-align: center;
 	}
 }
 
@@ -38,6 +37,15 @@
 
 	.cta-contact {
 		display: none;
+	}
+
+	.nav-link {
+		padding-top: 1rem;
+	}
+
+	.navbar-collapse.show {
+		background: var(--background-dark-primary);
+		padding-left: 1rem;
 	}
 
 	#hero .ellipse {
@@ -250,5 +258,9 @@
 
 	#button-head {
 		text-align: center;
+	}
+
+	.page-footer {
+		text-align: left;
 	}
 }

@@ -56,6 +56,7 @@ p {
 }
 
 .btn-contact {
+	font-size: 1rem !important;
 	color: white;
 	background: linear-gradient(
 		161.23deg,
@@ -69,6 +70,34 @@ p {
 		rgba(255, 255, 255, 0) 82.57%
 	);
 	border-radius: 59px;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
+.btn-contact:hover {
+	color: var(--main-accent-color);
+	background: linear-gradient(
+		161.23deg,
+		rgba(34, 34, 36, 0.25) 12.68%,
+		rgba(21, 21, 22, 0.25) 120.51%
+	);
+	border: 1px solid !important;
+	border-image-source: linear-gradient(
+		151.85deg,
+		rgba(255, 255, 255, 0.44) -13.69%,
+		rgba(255, 255, 255, 0) 82.57%
+	);
+}
+
+.btn-contact:focus,
+.btn-contact:active {
+	background-color: var(--main-accent-color);
+	color: white;
+	outline: none !important;
+	box-shadow: none;
+	border: none;
 }
 
 .btn-cta {
